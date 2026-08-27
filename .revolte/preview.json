@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "start": "npm run dev",
+  "port": 4173,
+  "install": [
+    {
+      "name": "node dependencies",
+      "check": "test -d node_modules",
+      "run": "npm install",
+      "inputs": ["package.json"]
+    }
+  ]
+}
